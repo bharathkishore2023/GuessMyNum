@@ -1,0 +1,48 @@
+ /* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');  */
+*{
+    margin:10px;
+    padding:10px;
+    box-sizing:inherit; 
+    max-width: 80%;
+    font-size:25px;
+}
+html{
+    font-size: 62.5%;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Press Start 2P',sans-serif;
+    color: rgb(216, 231, 16);
+    background-color:black;
+}
+header{
+    position: relative;
+    height: 40vh;
+    border-bottom: 7px solid rgb(8, 226, 230);
+
+}
+main{
+    height: 50vh;
+    color: rgb(238, 234, 228);
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+
+}
+.guess{
+    font-family:'Times New Roman', Times, serif;
+    max-width:100px;
+    
+}
+.number{
+    margin-top: 12rem;
+    margin-left:35rem;
+    height:6rem;
+    width: 15rem;
+    background-color:yellow;
+    color: rgb(13, 47, 218);
+    text-align: center;
+}
+.right{
+    margin-left: 30rem;
+}
